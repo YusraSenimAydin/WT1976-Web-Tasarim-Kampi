@@ -1,0 +1,97 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f1f1f1;
+}
+
+/* .pp-action{
+    line-height: 1.4;
+}*/
+
+.badge.badge-big{
+    font-size: 100%;
+    line-height: 0.9;
+    position: absolute;
+    right: 5px;
+    border-radius: 15cm;
+}
+/*
+a.footer-link{
+    text-decoration: underline;
+} */
+
+.fa-sign-in{
+    position:absolute;
+    right: 20px;
+    line-height: 1;
+}
+
+.fa-bars{
+    position: absolute;
+    right: 20px;
+    line-height: 1;
+    
+}
+
+.fa-paint-brush{
+    position: absolute;
+    right: 20px;
+    line-height: 1;
+}
+
+.btn.btn-search{
+    border-radius: 0.15rem;
+    background-color: #6c757d;
+    height: calc(1.5em + 0.75rem + 2px);
+    color:white;
+}
+
+.form-control {
+    border-radius: 0.1rem;
+}
+
+#div1{
+    /* padding-top: 40px; */
+    /* padding-left: 25px; */
+    
+    background-color: rgb(229, 229, 241);
+    padding: 60px 25px 60px ;
+    
+    
+}
+
+.fa-connectdevelop{
+    color:orangered;
+   
+}
+.fa-desktop{
+    color:green;
+   
+    
+}
+
+.palette{
+    filter: invert(56%) sepia(7%) saturate(3859%) hue-rotate(133deg) brightness(93%) contrast(85%);
+    width: 5rem;
+}
+
+.input-group{
+    position: relative;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: stretch;
+    width: 250px;
+    
+}
+.input-group>.form-control{
+    position: relative;
+    flex:1 1 auto;
+    width: 1%;
+    min-width: 0;
+    margin-bottom: 0;
+}
+[type=button], button{
+    -webkit-appearance:button;
+}
+
+
+
